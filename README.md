@@ -8,7 +8,7 @@
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/search-nickname?nickname={nome}&region={region}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/search-nickname?nickname={nome}&region={region}&auth={auth_key}
 ```
 
 **Resposta (200)**
@@ -46,7 +46,7 @@ GET https://7xhub-api.squareweb.app/api/ff/search-nickname?nickname={nome}&regio
 ## 2) Informações do jogador (por **UID**)
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/info-player?uid={uid_player}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/info-player?uid={uid_player}&auth={auth_key}
 ```
 
 **Resposta (200)**
@@ -151,7 +151,7 @@ GET https://7xhub-api.squareweb.app/api/ff/info-player?uid={uid_player}&auth={au
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/lista-desejos?uid={uid_player}&region={region}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/lista-desejos?uid={uid_player}&region={region}&auth={auth_key}
 ```
 
 **Resposta (200)**
@@ -182,7 +182,7 @@ GET https://7xhub-api.squareweb.app/api/ff/lista-desejos?uid={uid_player}&region
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/info-token?access_token={acess_token}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/info-token?access_token={acess_token}&auth={auth_key}
 ```
 
 **Resposta (200)**
@@ -232,7 +232,7 @@ GET https://7xhub-api.squareweb.app/api/ff/info-token?access_token={acess_token}
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/tabela-pontos?region={region}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/tabela-pontos?region={region}&auth={auth_key}
 ```
 
 **Resposta (200)**
@@ -269,7 +269,7 @@ GET https://7xhub-api.squareweb.app/api/ff/tabela-pontos?region={region}&auth={a
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/rank-passe?region={region}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/rank-passe?region={region}&auth={auth_key}
 ```
 
 **Resposta (200)**
@@ -305,7 +305,7 @@ GET https://7xhub-api.squareweb.app/api/ff/rank-passe?region={region}&auth={auth
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/rank-passe-global?auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/rank-passe-global?auth={auth_key}
 ```
 
 **Resposta (200)**
@@ -339,7 +339,7 @@ GET https://7xhub-api.squareweb.app/api/ff/rank-passe-global?auth={auth_key}
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/check-ban?uid={uid_player}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/check-ban?uid={uid_player}&auth={auth_key}
 ```
 
 **Resposta (200)**
@@ -375,7 +375,7 @@ GET https://7xhub-api.squareweb.app/api/ff/check-ban?uid={uid_player}&auth={auth
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/version?auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/version?auth={auth_key}
 ```
 
 
@@ -405,7 +405,7 @@ GET https://7xhub-api.squareweb.app/api/ff/version?auth={auth_key}
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/carteira-player?access_token={AcessToken}&region={region}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/carteira-player?access_token={AcessToken}&region={region}&auth={auth_key}
 ```
 
 **Resposta (200)**
@@ -442,7 +442,7 @@ GET https://7xhub-api.squareweb.app/api/ff/carteira-player?access_token={AcessTo
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/carreira-cs?uid={uid_player}&region={region}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/carreira-cs?uid={uid_player}&region={region}&auth={auth_key}
 ```
 
 **Resposta (200)**
@@ -492,7 +492,7 @@ GET https://7xhub-api.squareweb.app/api/ff/carreira-cs?uid={uid_player}&region={
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/carreira-br?uid={uid_player}&region={region}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/carreira-br?uid={uid_player}&region={region}&auth={auth_key}
 ```
 
 **Resposta (200)**
@@ -606,7 +606,7 @@ GET https://7xhub-api.squareweb.app/api/ff/carreira-br?uid={uid_player}&region={
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/likes?uid={uid_player}&region={region}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/likes?uid={uid_player}&region={region}&auth={auth_key}
 ```
 
 **Resposta (200)**
@@ -638,7 +638,7 @@ GET https://7xhub-api.squareweb.app/api/ff/likes?uid={uid_player}&region={region
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/basic-info?uid={uid_player}&region={region}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/basic-info?uid={uid_player}&region={region}&auth={auth_key}
 ```
 
 **Resposta (200)**
@@ -668,7 +668,7 @@ GET https://7xhub-api.squareweb.app/api/ff/basic-info?uid={uid_player}&region={r
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/ff/convert-token?webtoken={WebToken}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/convert-token?webtoken={WebToken}&auth={auth_key}
 ```
 
 **Resposta (200)**
