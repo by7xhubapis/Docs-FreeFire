@@ -606,7 +606,7 @@ GET https://7xhub-api.shardweb.app/api/ff/carreira-br?uid={uid_player}&region={r
 
 **Exemplo**
 ```
-GET https://7xhub-api.shardweb.app/api/ff/likes?uid={uid_player}&region={region}&auth={auth_key}
+GET https://7xhub-api.shardweb.app/api/ff/likes?uid={uid_player}&auth={auth_key}
 ```
 
 **Resposta (200)**
