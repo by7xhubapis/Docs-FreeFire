@@ -446,38 +446,13 @@ GET https://7xhub-apis.cloud/api/ff/convert-token?webtoken={WebToken}&auth={auth
 - 500 `{ "type": "erro_interno" }`
 ---
 
-## 9) **Likes Diarios (Max 220)** MANUTENÇÃO! 🚨
+## 9) **Likes Diarios (Max 220)**
 
-**Exemplo**
+**Documentação**
 ```
-GET https://7xhub-apis.cloud/api/ff/likes?uid={uid_player}&region={region}&auth={auth_key}
+GET https://7xhublikes.space/docs
 ```
 
-**Resposta (200)**
-```json
-{
-  "developer": "7XHUB APIS",
-  "status": "success",
-  "player": {
-    "account_id": "1033857091",
-    "nickname": "#Regiis7x'ㅤ⁑",
-    "level": 72,
-    "experience": 3462661,
-    "server": "BR"
-  },
-  "likes": {
-    "before": 12266,
-    "after": 12486,
-    "added": 220,
-    "status": 1
-  }
-}
-```
-**Erros**:
-- 400 `{ "type": "invalid_request" }`
-- 404 `{ "type": "player_not_found" }`
-- 503 `{ "type": "server_off" }`
-- 500 `{ "type": "erro_interno" }`
 ---
 
 ## 10) Basic info **(Conta Guest)**
